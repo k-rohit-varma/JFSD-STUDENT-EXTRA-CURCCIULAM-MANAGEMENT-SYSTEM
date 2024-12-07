@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+/Users/rohit/Documents/SPRING WORKS/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1291416529.index
+2597440811.index
+1253329757.index
+2597440811.index
+589463182.index

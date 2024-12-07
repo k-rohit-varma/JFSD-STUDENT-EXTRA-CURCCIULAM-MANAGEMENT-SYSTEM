@@ -1,0 +1,21 @@
+package com.klef.jfsd.springboot.ServiceImplementation;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.klef.jfsd.springboot.Repo.AttendanceRepo;
+import com.klef.jfsd.springboot.Service.AttendanceService;
+
+@Service
+public class AttendanceServiceImpl implements AttendanceService {
+
+	AttendanceRepo repo
+	
+	@Override
+	public List<Integer> getStudents(String eventName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

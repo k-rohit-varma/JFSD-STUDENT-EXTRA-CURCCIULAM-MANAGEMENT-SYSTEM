@@ -1,0 +1,15 @@
+package com.klef.jfsd.exam.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Order {
+
+	@Id
+	int orderId;
+	String productName;
+	String customerName;
+	int quality;
+	
+}

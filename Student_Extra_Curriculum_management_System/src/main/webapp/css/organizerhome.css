@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+body {
+    background-color: #f7f9fc; /* Softer light background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Improved font family */
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+h1 {
+    color: #2c3e50; /* Darker, more professional text color */
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: 600; /* Slightly bolder heading */
+}
+
+a {
+    color: #3498db; /* Soft blue link color */
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px 0;
+    display: inline-block;
+    transition: color 0.3s, transform 0.2s; /* Added smooth transformation on hover */
+}
+
+a:hover {
+    color: #1abc9c; /* Lighter greenish-blue on hover */
+    transform: translateY(-2px); /* Slight upward movement on hover */
+}
+
+.logout-link {
+    color: #e74c3c; /* Red color for logout link */
+    font-weight: 600; /* Bold the logout link for emphasis */
+}
+
+.logout-link:hover {
+    color: #c0392b; /* Darker red shade on hover */
+    transform: translateY(-2px); /* Smooth movement */
+}

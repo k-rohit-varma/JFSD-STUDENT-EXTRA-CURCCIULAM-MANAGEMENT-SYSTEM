@@ -1,0 +1,4 @@
+spring.application.name=OrdersLabExam
+
+server.port = 5678
+

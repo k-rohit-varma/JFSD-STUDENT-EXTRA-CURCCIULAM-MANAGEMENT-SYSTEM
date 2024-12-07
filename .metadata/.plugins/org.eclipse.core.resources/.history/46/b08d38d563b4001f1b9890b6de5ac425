@@ -1,0 +1,6 @@
+package com.klef.jfsd.exam.model;
+
+@Eni
+public class Order {
+
+}

@@ -1,0 +1,16 @@
+package com.klef.jfsd.springboot.Controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
+
+@RestController
+public class AttendanceController {
+	
+	@GetMapping()
+	public ModelAndView getStudent()
+	{
+		
+	}
+	
+}

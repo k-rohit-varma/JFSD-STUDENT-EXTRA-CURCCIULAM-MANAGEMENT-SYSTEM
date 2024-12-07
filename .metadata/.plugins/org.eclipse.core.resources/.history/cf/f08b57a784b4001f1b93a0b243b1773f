@@ -1,0 +1,7 @@
+package com.klef.jfsd.springboot.Service;
+
+import org.springframework.stereotype.Service;
+
+public interface AttendanceService {
+	
+}

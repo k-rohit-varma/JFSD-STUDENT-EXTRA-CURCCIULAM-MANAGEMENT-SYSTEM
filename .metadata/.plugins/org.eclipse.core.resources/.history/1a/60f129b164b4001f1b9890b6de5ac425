@@ -1,0 +1,20 @@
+package com.klef.jfsd.exam.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.klef.jfsd.exam.model.Orders;
+import com.klef.jfsd.exam.service.OrderService;
+
+@RestController
+public class OrderController {
+	
+	@Autowired
+	OrderService ser;
+	public void saveOrders(Orders order)
+	{
+		Orders ord = new Orders();
+		ser
+	}
+	
+}

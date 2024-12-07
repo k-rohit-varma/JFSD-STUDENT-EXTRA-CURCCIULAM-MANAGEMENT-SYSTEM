@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="jakarta.tags.core" prefix="c"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Student profile <c:out value="${stu.id}" /> </h1>
+	 <label>Name :</label> :<c:out value="${stu.name}" />
+	<label>Email :</label><c:out value="${stu.email}" />
+	<label>Phone Number :</label><c:out value="${stu.phNumber}" />
+	<label>Gender :</label><c:out value="${stu.gender}" />
+	<label>Points :</label><c:out value="${stu.points}" />
+	<br/><br/>
+	<a href="#"> <button>Edit</button> </a>
+</body>
+</html>

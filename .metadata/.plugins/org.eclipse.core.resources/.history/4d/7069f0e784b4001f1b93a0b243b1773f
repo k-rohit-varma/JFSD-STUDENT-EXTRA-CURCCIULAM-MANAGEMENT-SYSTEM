@@ -1,0 +1,7 @@
+package com.klef.jfsd.springboot.Service;
+
+public interface AttendanceService {
+
+	
+	
+}
